@@ -23,10 +23,9 @@ cp .env.example .env
 - run this commands .
  
 php artisan migrate:fresh --seed
-php artisan passport:install
-- Generate a new application key.
-php artisan key:generate
+-the admin's email = admin@gmail.com
+-the admin's password = 123456789
 - Start the local server.
 php artisan serve 
-#### You can download the front end side (react js) from here : [quiz-albarakah](https://github.com/almuhder/quiz-albarakah/tree/front)
+
 <hr>
