@@ -20,8 +20,8 @@ cp .env.example .env
 - run this commands .
  
 php artisan migrate:fresh --seed
--the admin's email = admin@gmail.com
--the admin's password = 123456789
+- the admin's email = admin@gmail.com .
+- the admin's password = 123456789 .
 - Start the local server.
 php artisan serve 
 
