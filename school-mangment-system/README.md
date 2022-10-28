@@ -12,8 +12,10 @@ application for students exam and manage exams & students.
  
 git checkout back
 - copy this command to terminal for install the composer.
+
 composer install
 - copy this command for generate <code>.env</code> file .
+
 cp .env.example .env 
 
 ### Don't forget to create a database with the same name in <code>.env</code> file
@@ -23,6 +25,7 @@ php artisan migrate:fresh --seed
 - the admin's email = admin@gmail.com .
 - the admin's password = 123456789 .
 - Start the local server .
+
 php artisan serve 
 
 <hr>
