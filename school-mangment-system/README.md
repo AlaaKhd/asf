@@ -9,16 +9,13 @@ application for students exam and manage exams & students.
 ### Installation
 <hr> 
 
-
-- Clone this repository.
-git clone https://github.com/almuhder/quiz-albarakah.git
-- must be checkout to back branch.
  
 git checkout back
 - copy this command to terminal for install the composer.
 composer install
 - copy this command for generate <code>.env</code> file .
 cp .env.example .env 
+
 ### Don't forget to create a database with the same name in <code>.env</code> file
 - run this commands .
  
